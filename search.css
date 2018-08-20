@@ -1,0 +1,28 @@
+.search-box {
+    margin: 350px 0 0 500px; 
+    animation-duration: 3s;
+    animation-name: slideup;
+    animation-fill-mode: forwards;
+}
+
+div input {
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 15px;
+    width: 700px;
+    height: 60px;
+}
+
+input:focus {
+    outline: none;
+}
+
+@keyframes slideup {
+    from {
+      margin-top: 500px;
+    }
+  
+    to {
+      margin-top: 20px;
+    }
+  }
